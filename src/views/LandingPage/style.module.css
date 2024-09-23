@@ -1,0 +1,1739 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+.logo {
+  transform: translateX(-112px);
+  display: block;
+}
+.logoHead {
+  transform: translateX(-112px);
+
+}
+
+.sec1col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.sec1_btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #FEC400;
+  color: black;
+  border: none;
+  transform: translateX(112px);
+}
+
+.sec1_btn:active {
+  background-color: black;
+  color: yellow;
+  transition: 0.9s;
+}
+
+
+.navbar {
+  position: relative;
+  top: 400px;
+}
+
+.navs {
+  position: fixed;
+  z-index: 9;
+  left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    
+}
+
+.round-div {
+  width: 60px;
+    height: 60px;
+    background-color: #fec400;
+    border-radius: 50%;
+    position: fixed;
+    right: 6px;
+    bottom: 13%;
+    z-index: 9;
+    
+    place-items: center;
+    display: none;
+}
+.lists {
+  position: sticky;
+  top: 50px;
+  left: 40px;
+  width: 40px;
+  height: 270px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: grid;
+  place-items: center;
+  backdrop-filter: blur(5px);
+  transform: translateX(-200px);
+
+}
+
+.lists li {
+  position: relative;
+  right: 2px;
+  top: 8px;
+}
+
+.h2tag {
+  transform: translateX(-500px);
+  position: absolute;
+  bottom: 4%;
+  color: white;
+  background-color: #00000070;
+  border-radius: 36px;
+}
+
+
+.mee {
+  color: #FEC400;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.cast {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+
+}
+
+.icon {
+  transition: 0.3s;
+  position: relative;
+  right: 5px;
+  bottom: 5px;
+
+}
+
+.absolute-icon {
+  position: absolute;
+}
+
+.icon:hover {
+  font-size: 23px;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip-text {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  width: 85px;
+  font-size: 13px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: calc(85% + 4px);
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.transition {
+  transition: transform 3s ease;
+  transform: translateX(0);
+}
+
+
+.section1 {
+  width: 100%;
+  background: #ffff;
+  height: 100vh;
+  background-image: url(../../assets/img/imagesCastmee/website\ image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.section1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6));
+  
+}
+
+
+.section1img {
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+}
+
+.banner-1 {
+ 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+.b1-section {
+  border-radius: 32px;
+  background-color: rgb(0, 0, 0, 0.7);
+  width: 100%;
+
+}
+
+.b1-text {
+  color: white;
+  font-size: 3vw;
+  text-align: left;
+}
+
+.b1-sect1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.b1-sect2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.banner1-btn {
+  background-color: #FEC400;
+  color: black;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 35px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+
+.banner1-btn:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+.banner1-btn:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+.main-section-2 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/img/imagesCastmee/about\ us\ background.png);
+  background-size: cover;
+}
+
+.content-2 {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.content2-text {
+  max-width: 100%;
+  padding: 40px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.h1tag {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  transform: translateY(130px);
+  overflow: hidden;
+  opacity: 0.5;
+  transition: 0.8s ease;
+}
+
+.h1taganimation {
+
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 0.8s ease-in-out;
+}
+
+.p-tag {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  letter-spacing:1px;
+  line-height: 30px;
+
+
+}
+
+.texts {
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.text1 {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 1s ease-in-out;
+}
+
+.texts2 {
+  transform: translateY(200px);
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.text2 {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 1s ease-in-out;
+}
+
+.texts3 {
+  transform: translateY(250px);
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.text3 {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 1s ease-in-out;
+}
+.main-section-3 {
+  background-image: url(../../assets/img/imagesCastmee/our\ service-min.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-3 {
+  display: grid !important;
+  background-color: transparent !important;
+  max-width: 100%;
+  border-radius: 35px;
+}
+
+.custom-carousel .carousel-inner {
+  
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.custom-carousel .carousel-item {
+  height: 30rem;
+  border-radius: 25px;
+}
+
+.custom-carousel .carousel-caption {
+  text-align: start;
+}
+
+.h1tagservice {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+
+  transform: translateY(200px);
+  opacity: 0.5;
+}
+
+.h1taganimationservice {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 0.9s ease-in-out;
+}
+
+
+.textser {
+  transform: translateY(200px);
+}
+
+.text1ser {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 0.9s ease-in-out;
+}
+
+.caross {
+  transform: translateY(0px) !important;
+  opacity: 1 !important;
+  transition: 0.9s ease-in-out !important;
+}
+.mainSec4 {
+  width: 100%;
+  background-image: url(../../assets/img//imagesCastmee/our\ mission.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.main-section-4 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.content-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3tag {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.h1tagmission {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.h1taganimationourmission {
+  transform: translateY(0px);
+  transition: 0.7s ease-in-out;
+  opacity: 1;
+}
+
+.txtourmission {
+  transform: translateY(0px) !important;
+  transition: 0.7s ease-in-out !important;
+  opacity: 1 !important;
+  transition-delay: 0.1s !important;
+}
+
+.tagElementText2msn {
+  transform: translateY(0px) !important;
+  transition: 0.7s ease-in-out !important;
+  opacity: 1 !important;
+  transition-delay: 0.15s !important;
+}
+
+.tagElementText2msn2 {
+  transform: translateY(0px) !important;
+  transition: 0.7s ease-in-out !important;
+  opacity: 1 !important;
+  transition-delay: 0.20s !important;
+}
+
+.tagElementText2msn3 {
+  transform: translateY(0px) !important;
+  transition: 0.7s ease-in-out !important;
+  opacity: 1 !important;
+  transition-delay: 0.25s !important;
+}
+.mainSec5 {
+  width: 100%;
+  background-image:url(../../assets/img/imagesCastmee/whatsets\ apart\ horizontal.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.main-section-5 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.content-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content-5-list {
+  padding: 5px;
+  color: white;
+  font-size: 1rem;
+  list-style: none;
+}
+
+.h1tagmissiontwo {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: 0.8s ease;
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.h1tagmissiontwoanm {
+
+  transform: translateY(0px);
+  transition: 1s ease;
+  opacity: 1;
+}
+
+.ourmsn2txt1 {
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.ourmsn2txt1anm {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 1s ease;
+  transition-delay: 0.15s !important;
+}
+
+.ourmsn2txt2 {
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.ourmsn2txt2anm {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 1s ease;
+  transition-delay: 0.20s !important;
+}
+
+.ourmsn2txt3 {
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.ourmsn2txt3anm {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 1s ease;
+  transition-delay: 0.25s !important;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #FEC400;
+}
+
+.ft-cl1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft-cl1-img {
+  width: 200px;
+}
+
+.ft-ul {
+  list-style: none;
+  position: relative;
+  left: -29px;
+}
+
+.ft-cl2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+.ft-cl3{
+  text-align: left;
+}
+
+
+.ft-tail {
+  width: 100%;
+  background-color: #000000;
+}
+
+.ft-tail-icon {
+  color: white;
+  width: 50px;
+  height: 39px;
+  margin: 10px;
+}
+
+.ft-tail2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 0;
+}
+
+.ft-tail1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner-1 {
+  background-image: url(../../assets/img/imagesCastmee/castmee\ banner\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+}
+
+.b1-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b1-section {
+  border-radius: 32px;
+  background-color: rgb(0, 0, 0, 0.7);
+  height: 95px;
+}
+
+.b1-text {
+  color: white;
+  font-size: 3vw;
+  text-align: left;
+}
+
+.b1-sect1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.b1-sect2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.banner1-btn {
+  background-color: #FEC400;
+  color: black;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 35px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+
+.banner1-btn:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+.banner1-btn:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+.banner-2 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b2-cont {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.b2-cl1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.b2-cl2 {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+}
+
+.b2-cl1-img {
+  width: 100px;
+  filter: drop-shadow(4px 4px 6px #555);
+}
+
+.b2-cl2-txt {
+  filter: drop-shadow(7px 4px 3px #000000);
+}
+.hw-wrk {
+  width: 100%;
+}
+
+.hw-wrkcnt {
+  background-image: url(../../assets/img/imagesCastmee/hwt-wrk\ background.png);
+  background-size: cover;
+  border-radius: 36px;
+}
+
+.how-itimg1 {
+  width: 80%;
+  height: 630px;
+}
+
+.hw-wrk21 {
+  order: 2;
+}
+
+.hw-wrk31 {
+  order: 2;
+}
+
+.hwitwrk-order {
+  order: 2;
+}
+
+
+
+
+.hw-mdiv {
+  width: 50%;
+}
+
+.jstmee {
+  overflow: hidden;
+}
+
+.joincstmee {
+  transform: translateX(-530px);
+  transition: 0.7s ease-in;
+}
+
+.joincstmeebtncls {
+  overflow: hidden;
+}
+
+.joincstmeebtn {
+  transform: translateX(240px);
+}
+
+.jstmeeanimation {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+
+.contact-us {
+  width: 100%;
+}
+
+.contactus-cont {
+  background-image: url(../../assets/img/imagesCastmee/castmee\ contact\ us.jpeg);
+  border-radius: 32px;
+  background-size: cover;
+}
+
+.form-container {
+  width: 45%;
+  background-color: #fff;
+  padding: 24px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #212121;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .logo-container {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-family: inherit;
+  border: 1px solid #ccc;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #1778f2;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  color: #fff;
+  background-color: #212121;
+  border: none;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #313131;
+}
+
+.form-container .link {
+  color: #1778f2;
+  text-decoration: none;
+}
+
+.form-container .signup-link {
+  align-self: center;
+  font-weight: 500;
+}
+
+.form-container .signup-link .link {
+  font-weight: 400;
+}
+
+.form-container .link:hover {
+  text-decoration: underline;
+}
+
+.form-textarea {
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.advantage {
+  width: 100%;
+}
+
+.advantage-icn {
+  height: 80px;
+  width: 50px;
+}
+
+.advantagecol-1 {
+  background-image: url(../../assets/img/imagesCastmee/advantage-min.png);
+  background-size: cover;
+  border-radius: 36px;
+  box-shadow: 15px 15px 30px rgb(0 0 0 / 30%);
+  background-position: 1%;
+}
+
+.adfirst-div {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.adv-arti2 {
+  width: 100%;
+  display: flex;
+}
+
+ .csttxtdiv {
+  overflow: hidden;
+}
+
+.cstimg {
+  transform: translateX(-300px);
+}
+
+.csttxt {
+  transform: translateX(300px);
+  overflow: hidden;
+}
+
+.cstmeeanimation {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+
+}
+
+/* Advanateganimassion  start */
+.firstarticle-div {
+  overflow: hidden;
+  transform: translateX(-600px);
+}
+
+.advantagearticleanimation {
+  transform: translatex(0px);
+  transition: 1s ease-in-out;
+}
+
+.adv-arti2-animation1 {
+  overflow: hidden;
+  transform: translateX(800px);
+
+}
+
+.sign-inanimationtexts {
+  overflow: hidden;
+
+}
+
+.anm1 {
+  transform: translateX(0px);
+  transition: 1.3s ease-in-out;
+}
+
+.anm2 {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+  transition-delay: 0.40s;
+
+}
+
+.anm3 {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+  transition-delay: 0.60s;
+
+}
+
+/* Advanateganimassion  end */
+
+
+/* How it wrks Startanimassion */
+.howitworksanimation {
+  overflow: hidden;
+  transform: translateY(500px);
+}
+
+.howittaganimate {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+
+.hw-mdiv-anm1 {
+  overflow: hidden;
+  transform: translateX(-170px);
+}
+
+.hw-mdiv-animationcls {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+
+.hw-mdiv-animationclstwo {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+
+}
+
+.hw-wrkcntanm {
+  overflow: hidden;
+}
+
+.anmfirst {
+  transform: translateX(620px);
+}
+.hw-animationclss {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+.anmscnd {
+  transform: translateX(-600px);
+}
+.hw-animationclsssnd {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+.textanm {
+  transform: translateX(630px);
+}
+.textanmscnd {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+.textanmlast {
+  transform: translateX(-630px);
+}
+.textanmlastanm {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+.textanmlastimg {
+  transform: translateX(630px);
+}
+.textanmlastimganm {
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+/* How it wrks endanimassion */
+
+/* Contact us animations start */
+.contactusanmdiv{
+  transform: translateY(150px);
+}
+.h1taganimation{
+  transform: translateY(0px);
+  transition: 0.7s ease-in-out;
+}
+.contactusanmdivtwo{
+  transform: translateY(190px);
+
+}
+.ptaganimationcont-us{
+  transform: translateY(0px);
+  transition: 0.8s ease-in-out;
+}
+.contact-us-div-three{
+  transform: translateY(230px);
+}
+.form-cont-us-animation{
+  transform: translateY(0px);
+  transition: 0.8s ease-in-out;
+}
+
+
+
+/* Contact us animations end *
+
+
+/* Book section start */
+/* .book-mainsection {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-container {
+  min-height: 90vh;
+  max-width: 100%;
+  background: rgb(137, 135, 133);
+  border-radius: 35px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bookimg{
+  aspect-ratio: 3 / 3;
+  object-fit: contain;
+  padding: 10%;
+  background-color: burlywood;
+  border-radius: 50%;
+} */
+
+.storeimg{
+  aspect-ratio: 3 / 3;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.storeImg{
+  width: 100%;
+  aspect-ratio: 3 / 3;
+  object-fit: contain;
+  height: 100%;
+
+}
+.cardtext{
+  display: flex;
+}
+.crossline{
+  text-decoration: line-through;
+  color: red;
+}
+.storetext{
+  text-align: left;
+  
+}
+/* Book section end */
+/* footernav start----------------------------------- */
+.footernav-container {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 97%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+        rgba(0, 0, 0, 0.5) 5px 10px 15px;
+        position: fixed;
+        bottom: 1rem;
+}
+
+.footernav-btn {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.footernav-btn:hover {
+  transform: translateY(-3px);
+}
+
+.ftnav-icon {
+  font-size: 29px;
+}
+/* footernav end----------------------------------- */
+/* sidenav-logo-------------------------- */
+.sidenav-log{
+  width: 100%;
+  height: 40px;
+}
+/* sidenav-logo-------------------------- */
+/* whatsetsapart--------------- */
+.whatsetsapart-banner{
+  background-image: url(../../assets/img/imagesCastmee/whatsets\ apart-min.png);
+  background-size: cover;
+  border-radius: 14px;
+}
+/* whatsetsapart--------------- */
+/* Blog container------------------------ */
+.blogcontainer{
+  background-color: #2d2d34;
+  color: white;
+}
+/* Blog container------------------------ */
+
+/* Media-Queries start*/
+@media screen and (max-width:1200px) {
+  .ft-tail2 {
+    justify-content: center;
+  }
+
+  .ft-tail1 {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+
+ 
+
+  .icon {
+    font-size: 15px;
+  }
+
+  
+
+  
+
+  .mainSec5 {
+    height: auto;
+  }
+
+  .ourSec {
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width:992px) {
+  .ft-cl1-img {
+    width: 170px;
+  }
+
+  .hw-wrk21 {
+    order: 0;
+  }
+
+  .hw-wrk31 {
+    order: 0;
+  }
+
+  .hwitwrk-order {
+    order: 0;
+  }
+  .adfirst-div{
+    align-items:center;
+  }
+}
+
+@media screen and (max-width: 933px) {
+
+
+
+  .icon {
+    font-size: 13px;
+  }
+
+ 
+
+  .main-section-3 {
+    padding-top: 50px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 916px) {
+
+
+
+  .icon {
+    font-size: 13px;
+  }
+
+ 
+
+
+}
+
+@media screen and (max-width: 913px) {
+
+ 
+
+  .icon {
+    font-size: 13px;
+  }
+
+ 
+
+}
+
+@media screen and (max-width: 897px) {
+
+ 
+
+  .icon {
+    font-size: 13px;
+  }
+
+  
+
+
+
+}
+
+@media screen and (max-width: 845px) {
+
+ 
+
+  .icon {
+    font-size: 13px;
+  }
+
+ 
+
+
+
+}
+
+
+@media screen and (max-width: 821px) {
+
+ 
+
+  .icon {
+    font-size: 13px;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+ 
+
+  .icon {
+    font-size: 13px;
+  }
+
+
+}
+
+@media screen and (max-width: 799px) {
+
+ 
+
+  .icon {
+    font-size: 13px;
+  }
+
+ 
+}
+
+@media screen and (max-width: 769px) {
+
+ 
+  .icon {
+    font-size: 13px;
+  }
+
+
+
+  .custom-carousel .carousel-inner {
+    border-radius: 25px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .content-3 {
+    background: rgba(83, 83, 86, 0.7);
+    border-radius: 35px;
+
+
+  }
+
+  .content2-text {
+    padding: 20px;
+  }
+
+  .content-2 {
+    padding: 10px;
+  }
+
+  .h1tag {
+    font-size: 35px;
+  }
+
+  .p-tag {
+    font-size: 15px;
+  }
+
+  .crimg {
+    height: auto;
+
+  }
+
+  .cr2text {
+    margin-top: 40px !important;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+  .book-container {
+    padding: 50px !important;
+  }
+
+  .b2-cl1 {
+    justify-content: center;
+  }
+
+  .b2-cl1-img {
+    width: 71px;
+  }
+
+  .b2-cl2 {
+    justify-content: center;
+
+  }
+
+  .hw-wrkhead {
+    text-align: center;
+  }
+
+  .form-container {
+    width: 70%;
+  }
+  .ft-cl3{
+    text-align: center;
+  }
+  .ft-cl2{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 741px) {
+
+
+  .icon {
+    font-size: 13px;
+  }
+
+ 
+
+
+  .b1-sect1 {
+    justify-content: center;
+  }
+
+  .b1-sect2 {
+    justify-content: center;
+  }
+
+  .banner1-btn {
+    font-size: 16px;
+    padding: 3px 24px;
+  }
+
+  .b1-text {
+    font-size: 4vw;
+  }
+
+  .banner-1 {
+    height: 117px;
+  }
+
+  .ft-cl1-img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .b1-sect1 {
+    justify-content: center;
+  }
+
+  .b1-sect2 {
+    justify-content: center;
+  }
+
+  .banner1-btn {
+    font-size: 16px;
+    padding: 3px 24px;
+  }
+
+  .b1-text {
+    font-size: 4vw;
+  }
+
+  .banner-1 {
+    height: 117px;
+  }
+
+  .ft-cl1-img {
+    width: 120px;
+  }
+
+  .how-itimg1 {
+    height: 258px;
+  }
+
+  .hw-mdiv {
+    width: 90%;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .form-textarea {
+    height: 130px;
+  }
+
+  .adv-arti2 {
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  .footernav-container{
+    display: flex;
+  }
+  .navs{
+    display: none;
+  }
+  .p-tag{
+    text-align: left;
+  }
+  .ft-tail2{
+    margin-bottom: 43px;
+  }
+  .logo{
+    display: none;
+  }
+  .main-section-3{
+    background-image: url(../../assets/img/imagesCastmee/our\ service\ for\ small-min.png);
+  }
+  .hw-wrkcnt{
+    border-radius: 0px;
+  }
+  .contactus-cont{
+    border-radius: 0px;
+  }
+ 
+  .storeImg{
+    width: 50%;
+  }
+  .round-div{
+    display: grid;
+  }
+  .mainSec4{
+    background-image: url(../../assets/img/imagesCastmee/ourmission\ vertical.png);
+  }
+ 
+}
+
+@media screen and (max-width: 541px) {
+
+  
+
+  .icon {
+    font-size: 13px;
+  }
+
+ 
+
+  .h3tag {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+  }
+
+
+}
+
+@media screen and (max-width: 432px) {
+  .h3tag {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+
+ 
+
+  .icon {
+    font-size: 13px;
+  }
+
+ 
+  .main-section-3 {
+    padding-top: 0;
+  }
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .custom-carousel .carousel-inner {
+    border-radius: 25px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .content-3 {
+    background: rgba(83, 83, 86, 0.7);
+
+    border-radius: 35px;
+
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .content2-image {
+    display: none;
+  }
+
+  .h1tag {
+    font-size: 35px;
+  }
+
+  .p-tag {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:340px) {
+  .round-div{
+    width: 40px;
+    height: 40px;
+  }
+  .storetext{
+    text-align: end;
+  }
+}

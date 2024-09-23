@@ -1,0 +1,53 @@
+.sidebar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #343a40; /* Dark background color */
+  padding-top: 20px;
+  color: #fff; /* Text color */
+}
+
+.logo {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 80%; /* Adjust logo size */
+}
+
+.nav {
+  flex-direction: column; /* Align items vertically */
+}
+
+.nav-link {
+  padding: 10px 20px; /* Adjust padding */
+  color: #adb5bd; /* Text color */
+}
+
+.nav-link:hover {
+  color: #fff; /* Text color on hover */
+}
+
+.active {
+  background-color: #495057; /* Active item background color */
+}
+
+.nav-link i {
+  margin-right: 10px; /* Add space between icon and text */
+}
+
+/* Separator */
+.separator {
+  margin: 10px 0;
+  border-bottom: 1px solid #495057; /* Separator color */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
